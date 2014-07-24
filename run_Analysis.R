@@ -1,7 +1,6 @@
 ## run_Analysis.R
 ## Created by: Joseph Crutsinger
 ## Date: 07/23/2014
-## Course rprog-004
 
 library(reshape2)
 
@@ -15,7 +14,6 @@ y_train <- read.table("./data/train/y_train.txt")
 
 # Load activity names
 activity_labels <- read.table("./data/activity_labels.txt")
-
 
 # Load feature names
 features <- read.table("./data/features.txt")
